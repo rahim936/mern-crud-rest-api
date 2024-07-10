@@ -2,12 +2,10 @@
 Goals setter application. Simple project to practice MERN CRUD operation
 
 ## Requirements
-    create /server/.env then create these env variables.
-    ``
+    create /server/.env file then create these env variables.
     HOST
     PORT
     MONGO_DB_CONNECTION_STRING
-    ``
 
 ## Run commands
     cd /server
