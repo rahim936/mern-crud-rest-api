@@ -1,0 +1,35 @@
+.post_form {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+    flex-direction: column;
+}
+
+.edit-form {
+    	/* width: 50%; */
+	/* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; */
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+		rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+	padding: 0.9rem 0.6rem;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+}
+
+.edit-form .input-box:last-child {
+	text-align: right;
+}
+
+textarea {
+	width: 100%;
+	border: 1px solid rgba(0, 0, 0, 0.123);
+	/* outline: none; */
+	box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+	width: 100%;
+	margin: 5px;
+	font-size: 1.1rem;
+	color: black;
+	padding: 12px 6px;
+    border-radius: 4px;
+    line-height: 1.8;
+
+}

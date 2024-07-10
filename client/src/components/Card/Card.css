@@ -1,0 +1,89 @@
+.card {
+	padding: 8px 16px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	margin-bottom: 30px;
+	border-radius: 8px;
+	border: 1px solid rgba(0, 0, 0, 0.24);
+}
+
+.card-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.24);
+}
+
+.title-info {
+	margin: 2px;
+	width: fit-content;
+}
+.title-info h1 {
+	text-transform: capitalize;
+	font-size: 24px;
+	font-weight: 400;
+	letter-spacing: 0.5px;
+	color: rgba(0, 0, 0, 0.76);
+}
+
+.edit-delete {
+	/* width: 25%; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 25px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+		rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+	padding: 8px;
+}
+
+.card-body {
+	margin: 10px 0;
+	padding: 8px;
+}
+
+.card-body p {
+	text-align: justify;
+	font-size: 18px;
+	line-height: 1.8;
+}
+
+.btn {
+	color: aqua;
+	border: 1px solid rgba(0, 0, 0, 0.24);
+}
+
+.btn svg {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+}
+
+.ratings {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.rating-like {
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+		rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+	margin-right: 25px;
+	display: flex;
+	align-items: center;
+	border-radius: 4px;
+
+	justify-content: center;
+	gap: 25px;
+	padding: 6px 12px;
+}
+.rating-dislike {
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+		rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+	border-radius: 4px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 25px;
+	padding: 6px 12px;
+}
