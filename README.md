@@ -1,7 +1,10 @@
 ### MERN CRUD Rest-API
 Simple project to practice MERN CRUD operation
 
-## Requirements
+## Get Started
+    git clone https://github.com/rahim936/mern-crud-rest-api.git
+    cd /server then run -> npm i
+    cd /client then run -> npm i
     create /server/.env file then create these env variables.
     HOST
     PORT
