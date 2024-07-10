@@ -1,5 +1,5 @@
 ### MERN CRUD Rest-API
-Goals setter application. Simple project to practice MERN CRUD operation
+Simple project to practice MERN CRUD operation
 
 ## Requirements
     create /server/.env file then create these env variables.
